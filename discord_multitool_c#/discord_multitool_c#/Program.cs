@@ -112,7 +112,7 @@ namespace DiscordMultiTool
                         ""color"": {colorCode}
                     }}
                 ]
-            }}";
+            }}" ;
 
             using (HttpClient client = new HttpClient())
             {
@@ -142,14 +142,14 @@ namespace DiscordMultiTool
                 case "4":
                     return 65280;
                 case "5":
-                    return 255;
+                    return 40960;
                 case "6":
-                    return 16711935;
+                    return 12303291;
                 case "7":
                     return 8421504;
                 default:
-                    Console.WriteLine("Invalid color choice. Defaulting to Grey.");
-                    return 8421504;
+                    Console.WriteLine("Invalid color choice. Defaulting to White.");
+                    return 16777215;
             }
         }
     }
