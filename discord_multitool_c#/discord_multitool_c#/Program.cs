@@ -48,6 +48,7 @@ namespace DiscordMultiTool
     ▐█ ▪▐▌▐█▄█▌ ▐█▌·▐█▌.▐▌██ ██▌▐█▌▐█ ▪▐▌ ▐█▌·▐█▌▐█▌.▐▌██▐█▌
      ▀  ▀  ▀▀▀  ▀▀▀  ▀█▄▀▪▀▀  █▪▀▀▀ ▀  ▀  ▀▀▀ ▀▀▀ ▀█▄▀▪▀▀ █▪
                                                                                           
+
                                     Discord Multi-Tool - Updt_JP
 ");
             Console.ResetColor();
@@ -90,7 +91,6 @@ namespace DiscordMultiTool
             Console.Write("Enter Embed Description: ");
             string description = Console.ReadLine();
 
-            Console.Clear();
             Console.WriteLine("Choose an Embed Color:");
             Console.WriteLine("1. Red");
             Console.WriteLine("2. Orange");
@@ -134,22 +134,22 @@ namespace DiscordMultiTool
             switch (choice)
             {
                 case "1":
-                    return 16711680; 
+                    return 16711680;
                 case "2":
-                    return 16753920; 
+                    return 16753920;
                 case "3":
-                    return 16776960; 
+                    return 16776960;
                 case "4":
-                    return 65280;    
+                    return 65280;
                 case "5":
-                    return 255;      
+                    return 255;
                 case "6":
-                    return 16711935; 
+                    return 16711935;
                 case "7":
-                    return 8421504;  
+                    return 8421504;
                 default:
                     Console.WriteLine("Invalid color choice. Defaulting to Grey.");
-                    return 8421504; 
+                    return 8421504;
             }
         }
     }
