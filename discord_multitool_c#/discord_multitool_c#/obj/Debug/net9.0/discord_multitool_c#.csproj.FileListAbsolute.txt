@@ -1,0 +1,14 @@
+C:\Users\jpcal\Desktop\discord_multitool_c#\discord_multitool_c#\bin\Debug\net9.0\discord_multitool_c#.exe
+C:\Users\jpcal\Desktop\discord_multitool_c#\discord_multitool_c#\bin\Debug\net9.0\discord_multitool_c#.deps.json
+C:\Users\jpcal\Desktop\discord_multitool_c#\discord_multitool_c#\bin\Debug\net9.0\discord_multitool_c#.runtimeconfig.json
+C:\Users\jpcal\Desktop\discord_multitool_c#\discord_multitool_c#\bin\Debug\net9.0\discord_multitool_c#.dll
+C:\Users\jpcal\Desktop\discord_multitool_c#\discord_multitool_c#\bin\Debug\net9.0\discord_multitool_c#.pdb
+C:\Users\jpcal\Desktop\discord_multitool_c#\discord_multitool_c#\obj\Debug\net9.0\discord_multitool_c#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jpcal\Desktop\discord_multitool_c#\discord_multitool_c#\obj\Debug\net9.0\discord_multitool_c#.AssemblyInfoInputs.cache
+C:\Users\jpcal\Desktop\discord_multitool_c#\discord_multitool_c#\obj\Debug\net9.0\discord_multitool_c#.AssemblyInfo.cs
+C:\Users\jpcal\Desktop\discord_multitool_c#\discord_multitool_c#\obj\Debug\net9.0\discord_multitool_c#.csproj.CoreCompileInputs.cache
+C:\Users\jpcal\Desktop\discord_multitool_c#\discord_multitool_c#\obj\Debug\net9.0\discord_multitool_c#.dll
+C:\Users\jpcal\Desktop\discord_multitool_c#\discord_multitool_c#\obj\Debug\net9.0\refint\discord_multitool_c#.dll
+C:\Users\jpcal\Desktop\discord_multitool_c#\discord_multitool_c#\obj\Debug\net9.0\discord_multitool_c#.pdb
+C:\Users\jpcal\Desktop\discord_multitool_c#\discord_multitool_c#\obj\Debug\net9.0\discord_multitool_c#.genruntimeconfig.cache
+C:\Users\jpcal\Desktop\discord_multitool_c#\discord_multitool_c#\obj\Debug\net9.0\ref\discord_multitool_c#.dll

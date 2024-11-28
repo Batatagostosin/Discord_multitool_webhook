@@ -1,2 +1,2 @@
-# Discord_multitool_webhook
- Basic discord multitool for webhook configuration
+Still in development
+The .exe is in the bin folder
