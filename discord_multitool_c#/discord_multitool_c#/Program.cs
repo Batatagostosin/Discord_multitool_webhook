@@ -1,9 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
-using System.Net.Http;
 
 namespace DiscordMultiTool
 {
@@ -61,7 +59,7 @@ namespace DiscordMultiTool
             Console.Write("Enter Webhook URL: ");
             string webhookUrl = Console.ReadLine();
 
-            Console.Write("Enter Message Content: ");
+            Console.Write("Enter Message: ");
             string message = Console.ReadLine();
 
             string payload = $"{{\"content\":\"{message}\"}}";
@@ -92,12 +90,26 @@ namespace DiscordMultiTool
             Console.Write("Enter Embed Description: ");
             string description = Console.ReadLine();
 
+            Console.Clear();
+            Console.WriteLine("Choose an Embed Color:");
+            Console.WriteLine("1. Red");
+            Console.WriteLine("2. Orange");
+            Console.WriteLine("3. Yellow");
+            Console.WriteLine("4. Green");
+            Console.WriteLine("5. Blue");
+            Console.WriteLine("6. Magenta");
+            Console.WriteLine("7. Grey");
+            Console.Write("\nSelect a color (1-7): ");
+
+            string colorChoice = Console.ReadLine();
+            int colorCode = GetColorCode(colorChoice);
+
             string payload = $@"{{
                 ""embeds"": [
                     {{
                         ""title"": ""{title}"",
                         ""description"": ""{description}"",
-                        ""color"": 16711680
+                        ""color"": {colorCode}
                     }}
                 ]
             }}";
@@ -112,8 +124,33 @@ namespace DiscordMultiTool
                 else
                     Console.WriteLine($"Failed to send embed. Status Code: {response.StatusCode}");
             }
+
             Console.WriteLine("Press any key to return to the menu.");
             Console.ReadKey();
+        }
+
+        static int GetColorCode(string choice)
+        {
+            switch (choice)
+            {
+                case "1":
+                    return 16711680; 
+                case "2":
+                    return 16753920; 
+                case "3":
+                    return 16776960; 
+                case "4":
+                    return 65280;    
+                case "5":
+                    return 255;      
+                case "6":
+                    return 16711935; 
+                case "7":
+                    return 8421504;  
+                default:
+                    Console.WriteLine("Invalid color choice. Defaulting to Grey.");
+                    return 8421504; 
+            }
         }
     }
 }
