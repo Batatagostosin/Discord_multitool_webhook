@@ -40,17 +40,31 @@ namespace DiscordMultiTool
 
         static void DisplayBanner()
         {
-            Console.ForegroundColor = ConsoleColor.DarkMagenta;
-            Console.WriteLine(@"
-     ▄▄▄· ▄• ▄▌▄▄▄▄▄      • ▌ ▄ ·.  ▄▄▄· ▄▄▄▄▄▪         ▐ ▄ 
-    ▐█ ▀█ █▪██▌•██  ▪     ·██ ▐███▪▐█ ▀█ •██  ██ ▪     •█▌▐█
-    ▄█▀▀█ █▌▐█▌ ▐█.▪ ▄█▀▄ ▐█ ▌▐▌▐█·▄█▀▀█  ▐█.▪▐█· ▄█▀▄ ▐█▐▐▌
-    ▐█ ▪▐▌▐█▄█▌ ▐█▌·▐█▌.▐▌██ ██▌▐█▌▐█ ▪▐▌ ▐█▌·▐█▌▐█▌.▐▌██▐█▌
-     ▀  ▀  ▀▀▀  ▀▀▀  ▀█▄▀▪▀▀  █▪▀▀▀ ▀  ▀  ▀▀▀ ▀▀▀ ▀█▄▀▪▀▀ █▪
-                                                                                          
+            ConsoleColor[] gradientColors = new[]
+            {
+                ConsoleColor.Cyan,
+                ConsoleColor.DarkBlue,
+                ConsoleColor.DarkMagenta,
+                ConsoleColor.Magenta
+            };
 
-                                    Discord Multi-Tool - Updt_JP
-");
+            string[] bannerLines = new string[]
+            {
+                "     ▄▄▄· ▄• ▄▌ ▄▄▄▄▄       • ▌ ▄ ·.  ▄▄▄· ▄▄▄▄ ▄▪        ▐  ▄ ",
+                "    ▐█ ▀█ █▪██▌ •██  ▪     ·██ ▐███▪▐█ ▀█  •██  ██ ▪      •█▌▐█",
+                "    ▄█▀▀█ █▌▐█▌ ▐█.▪ ▄█▀▄ ▐█ ▌▐▌▐█·▄█▀▀█  ▐█.▪▐█· ▄█▀▄ ▐█▐▐▌",
+                "    ▐█ ▪▐▌▐█▄█▌ ▐█▌·▐█▌.▐▌██ ██▌▐█▌▐█ ▪▐▌ ▐█▌·▐█▌▐█▌.▐▌██▐█▌",
+                "     ▀  ▀  ▀▀▀  ▀▀▀  ▀█▄▀▪▀▀  █▪▀▀▀ ▀  ▀  ▀▀▀ ▀▀▀ ▀█▄▀▪▀▀ █▪"
+            };
+
+            for (int i = 0; i < bannerLines.Length; i++)
+            {
+                Console.ForegroundColor = gradientColors[i % gradientColors.Length];
+                Console.WriteLine(bannerLines[i]);
+            }
+
+            Console.ForegroundColor = ConsoleColor.DarkMagenta;
+            Console.WriteLine("\n                                    Discord Multi-Tool - Updt_JP\n");
             Console.ResetColor();
         }
 
