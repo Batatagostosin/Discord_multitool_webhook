@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("discord_multitool_c#")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a8b4b23718c3a330641daf01609abffd2fc66f99")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6d26cdf90112f3299a995d7c9b7467bf91e2ce5f")]
 [assembly: System.Reflection.AssemblyProductAttribute("discord_multitool_c#")]
 [assembly: System.Reflection.AssemblyTitleAttribute("discord_multitool_c#")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
