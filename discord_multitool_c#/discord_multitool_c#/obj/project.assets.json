@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\jpcal\\Desktop\\Discord_multitool_webhook\\discord_multitool_c#\\discord_multitool_c#\\discord_multitool_c#.csproj",
+      "projectUniqueName": "c:\\Users\\jpcal\\Desktop\\Github\\Discord_multitool_webhook\\discord_multitool_c#\\discord_multitool_c#\\discord_multitool_c#.csproj",
       "projectName": "discord_multitool_c#",
-      "projectPath": "c:\\Users\\jpcal\\Desktop\\Discord_multitool_webhook\\discord_multitool_c#\\discord_multitool_c#\\discord_multitool_c#.csproj",
+      "projectPath": "c:\\Users\\jpcal\\Desktop\\Github\\Discord_multitool_webhook\\discord_multitool_c#\\discord_multitool_c#\\discord_multitool_c#.csproj",
       "packagesPath": "C:\\Users\\jpcal\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\jpcal\\Desktop\\Discord_multitool_webhook\\discord_multitool_c#\\discord_multitool_c#\\obj\\",
+      "outputPath": "c:\\Users\\jpcal\\Desktop\\Github\\Discord_multitool_webhook\\discord_multitool_c#\\discord_multitool_c#\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jpcal\\AppData\\Roaming\\NuGet\\NuGet.Config"
